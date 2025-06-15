@@ -22,7 +22,7 @@ const captionSchema = new mongoose.Schema({
     unique: true,
     lowercase: true,
     match: [/\S+@\S+\.\S+/, "is invalid"],
-    minlength: [5, "email must be at least 3 characters long"],
+    // minlength: [5, "email must be at least 3 characters long"],
   },
 
   password: {

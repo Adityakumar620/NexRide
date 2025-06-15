@@ -12,6 +12,8 @@ import UserLogout from "./pages/UserLogout";
 import CaptionHome from "./pages/CaptionHome";
 import CaptionProtectWrapper from "./pages/CaptionProtectWraper";
 import CaptionLogout from "./pages/CaptionLogout";
+import Riding from "./pages/Riding";
+import CaptionRiding from "./pages/CaptionRiding";
 
 function App() {
   return (
@@ -22,7 +24,8 @@ function App() {
         <Route path="/signup" element={<UserSignup />} />
         <Route path="/caption-login" element={<CaptionLogin />} />
         <Route path="/caption-signup" element={<CaptionSignup />} />
-
+        <Route path="/riding" element={<Riding />} />
+        <Route path="/caption-riding" element={<CaptionRiding />} />
         <Route
           path="/home"
           element={
